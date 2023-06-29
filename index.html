@@ -13,6 +13,11 @@
     <h2>GitHub Search</h2>
 
     <form id='github-form'>
+      <input id="username" type="radio" name="search_parameter" checked value="name">
+      <label for="username">Username</label>
+      <input id="username" type="radio" name="search_parameter" value="repo">
+      <label for="repo">Repo</label>
+      
       <input id='search' type='text' name='search'>
       <input type='submit' name='submit'/>
     </form>
